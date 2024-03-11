@@ -13,6 +13,7 @@ header, footer {
     padding: 1em;
     float: left;
     font-size: large;
+    text-decoration: none;
 }
 .wrapper {
     display:flex;

@@ -14,5 +14,5 @@ p {
     background-color: gold; text-decoration: line-through; 
 }
 #lista {
-    background-color: red; list-style-type: square;
+    background-color: red; list-style-type:disc;
 }

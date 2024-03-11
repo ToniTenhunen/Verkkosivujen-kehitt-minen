@@ -9,7 +9,7 @@ header, footer {
 }
 
 .nav {
-    background-color:rgb(red, green, blue);
+    background-color:black;
     padding: 1em;
     float: left;
     font-size: large;

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletable.css">
+    <title>Rekisteröitymislomake</title>
+</head>
+<body> 
+        <div class="wrapper">
+        <form action="#">
+            <table>
+       
+            <th colspan="2">Luo käyttäjätili täyttämällä lomake</th>
+            <tr>
+                <td><label for="Nimi">Nimi</label></td>
+                <td><input type="text" name="Nimi" id="Nimi" required></td> 
+            </tr>    
+            <tr>
+                <td><label for="Sähköposti">Sähköposti</label></td>
+                <td><input type="email" name="Sähköposti" id="Sähkposti" required></td>
+            </tr>   
+            <tr>
+                <td><label for="Puhelinnumero">Puhelinnumero</label></td> 
+                <td><input type="tel" name="Puhelinnumero" id="Puhelinnumero" required></td>
+            </tr> 
+            <tr>
+                <td><label for="Salasana">Salasana</label></td> 
+                <td><input type="password" name="Salasana" id="Salasana" required maxlength="12"></td>
+            </tr>
+            <tr>
+                <td><label for="Salasana uudelleen">Salasana uudelleen</label></td> 
+                <td><input type="password" name="Salasana uudelleen" id="Salasana uudelleen" required maxlength="12"></td>
+            </tr>
+            <tr>
+               <td colspan="2"><button type="submit" value="Uusi käyttäjä">Rekisteröidy</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <button type="reset">Resetoi</button></td>
+             </tr>
+            <tr>
+                <td>Tilaa uutiskirje</td>
+                    <td>
+                    <input type = "radio" name = "Tilaa uutiskirje" value="Kyllä">Kyllä haluan uutiskirjeen
+                    <input type = "radio" name = "Tilaa uutiskirje" value="Ei">En halua uutiskirjettä
+                    </td>
+            </tr>
+              
+            </table>
+            
+        </form>
+        </div>  
+        <div class="palaute">
+        <caption>Palautelaatikko, kerro mitä mieltä olet</caption>
+        <textarea class="textarea" name="Palautelaatikko" cols="80" rows="4" placeholder="Kirjoita palautteesi tähän"></textarea>
+        </div>
+</body>
+</html>

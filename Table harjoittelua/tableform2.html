@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletable.css">
+    <title>Rekisteröitymislomake</title>
+</head>
+<body>
+        <caption>Luo käyttäjätili</caption>
+        <p></p>
+        <form action="#">
+
+            <div>
+                <label for="Nimi">Nimi</label>
+                <input type="text" name="Nimi" id="Nimi" required>
+            </div>   
+            <div>
+                <label for="Sähköposti">Sähköposti</label>
+                <input type="email" name="Sähköposti" id="Sähkposti" required>
+            </div>   
+            <div>
+                <label for="Puhelinnumero">Puhelinnumero</label>
+                <input type="tel" name="Puhelinnumero" id="Puhelinnumero" required>
+            </div>   
+            <div>
+                <label for="Salasana">Salasana</label>
+                <input type="password" name="Salasana" id="Salasana" required maxlength="12">
+            </div>   
+             <div>
+                <label for="Salasana uudelleen">Salasana uudelleen</label>
+                <input type="password" name="Salasana uudelleen" id="Salasana uudelleen" required maxlength="12">
+            </div>   
+            <div>
+                <button type="submit">Rekisteröidy</button>
+            </div>
+            <div>
+                <button type="reset">Resetoi</button>
+            </div>
+            <tr>
+                <td>Tilaa uutiskirje</td>
+                    <td>
+                    <input type = "radio" name = "Tilaa uutiskirje" value="Kyllä"> Kyllä haluan uutiskirjeen
+                   <input type = "radio" name = "Tilaa uutiskirje" value="Ei"> En halua uutiskirjettä
+                    </td>
+            </tr>
+
+            <div>
+                <caption>Palautelaatikko, kerro mitä mieltä olet meistä</caption>
+            </div>
+            <div>
+                <textarea name="Palautelaatikko" cols="80" rows="4"></textarea>
+            </div>    
+        </form> 
+   
+</body>
+</html>

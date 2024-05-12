@@ -1,18 +1,29 @@
 body {
-    background:lightblue; margin-left: auto; margin-right: auto; width:80%; font-family: Arial, Helvetica, sans-serif;
+    background:lightblue; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width:80%; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 .red {
-    color: red;background-color: aqua; font-size: 150%; text-transform: uppercase;
+    color: red;
+    background-color: aqua; 
+    font-size: 150%; 
+    text-transform: uppercase;
 }
 .blue {
-    color: blue;font-size:150%; text-decoration: underline;
+    color: blue;
+    font-size:150%; 
+    text-decoration: underline;
 }
 p {
     color: purple;
 }
 .highlight {
-    background-color: gold; text-decoration: line-through; 
+    background-color: gold; 
+    text-decoration: line-through; 
 }
 #lista {
-    background-color: red; list-style-type:disc;
+    background-color: red; 
+    list-style-type:disc;
 }

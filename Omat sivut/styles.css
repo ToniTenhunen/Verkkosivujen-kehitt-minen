@@ -1,0 +1,271 @@
+.logo {
+    float: left;
+    padding: 13px;
+    text-shadow: 1px 2px 2px darkgrey;
+    margin-top: 10px;
+}
+body {
+    background-color: rgb(43,51,63,.7);
+    justify-content: center;
+    align-items: baseline;
+    background-image: url("piirilevy.webp");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.btn {
+    color: black;
+    background-color: lightgrey;
+    border-color: black;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+h1 {
+    text-align: center;
+    padding: 1em;
+    font-size: medium;
+    color: white;
+    text-shadow: 1px 2px 2px darkgrey;
+}
+p {
+    text-shadow: 1px 2px 2px black;
+}
+.navbar-nav {
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+}
+.navbar {
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.navbar-collapse {
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fluid {
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row1 {
+    text-align: left;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px;
+    border-radius: 5px;
+    gap: 10px;
+}
+.container {
+    border-radius: 5px;
+    padding: 1em;
+    width: 100%;
+    display:flex;
+    text-align: center;
+}
+.row-tarjoustuotteita {
+    display:flex;
+    text-align: center;
+    gap: 10px;
+    font-size: 15px;
+}
+.btn-secondary {
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: rgb(43,51,63,.7);
+    border-color: black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: white;
+}
+header {
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    clear: left;
+    text-shadow: 1px 2px 2px black;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    clear: left;
+    gap: 10px;
+    text-shadow: 1px 2px 2px black;
+    background-color: rgb(43,51,63,.7);
+}
+.row {
+    height: 300px;
+    justify-content: center;
+    align-items: baseline;
+    text-align: left;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    gap: 150px;
+}
+.collapse-navbar {
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    text-align: center;
+    padding:1em;
+    text-shadow: 1px 2px 2px black;
+}
+.row3 {
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.row4 {
+    display:flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding:1em;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+th {
+    padding:15px;
+}
+table {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px black; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(43,51,63,.7);
+}
+td {
+    padding:10px;
+}
+button:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;   
+}
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+textarea {
+    background-color:white;
+    height: 125px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper {
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: black;
+    text-shadow: 1px 2px 2px black;
+}
+.textarea {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: rgba(141, 152, 170, 0.7);
+}
+.palaute {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+.carousel {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3 {
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+}
+.img:hover {
+    transform: scale(1.03);
+    max-width: 100%;
+}
+h4 {
+text-align: center;
+height: 200px;
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+padding: 1em;
+text-shadow: 1px 2px 2px black;
+}
+
+
+@media screen and (min-width: 300px) {
+    
+    .container {
+      width: 100%; 
+    }
+    p {
+        width:100%;
+    }
+    footer{
+        width:100%;
+    }
+    h1,h2,h3,h4,header {
+        width:100%;
+    }
+    .row3 {
+        width:100%;
+    }
+    .row1 {
+        width:100%;
+    }
+    .textarea {
+        width:100%;
+    }
+    .d-flex{
+        width:100%;
+    }
+    .col-6 {
+        display: block;
+    }
+    p {
+        display:block;
+    }
+    
+}    
